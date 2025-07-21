@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply bg-primary-600 text-white px-4 py-2 rounded-md hover:bg-primary-700 transition-colors font-medium;
+    }
+    
+    .btn-secondary {
+        @apply bg-white text-gray-700 px-4 py-2 rounded-md border border-gray-300 hover:bg-gray-50 transition-colors font-medium;
+    }
+    
+    .card {
+        @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+    }
+    
+    .form-input {
+        @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500;
+    }
+}
